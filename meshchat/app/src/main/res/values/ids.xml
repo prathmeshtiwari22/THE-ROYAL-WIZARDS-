@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="layoutLandscape" type="id" />
+    <item name="Landscape" type="id" />
+    <item name="disasterName1" type="id" />
+    <item name="layoutEarthquake" type="id" />
+    <item name="Earthquake" type="id" />
+    <item name="disasterName2" type="id" />
+    <item name="layoutFlood" type="id" />
+    <item name="Flood" type="id" />
+    <item name="disasterName3" type="id" />
+    <item name="layoutCyclone" type="id" />
+    <item name="cyclone" type="id" />
+    <item name="disasterName4" type="id" />
+</resources>

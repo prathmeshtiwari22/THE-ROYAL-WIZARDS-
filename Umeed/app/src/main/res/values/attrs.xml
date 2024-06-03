@@ -1,0 +1,7 @@
+<resources>
+    <attr name="spinning_bar_padding" format="dimension" />
+    <attr name="spinning_bar_width" format="dimension" />
+    <attr name="initialCornerAngle" format="float" />
+    <attr name="spinning_bar_color" format="color" />
+    <!-- Add more custom attributes if needed -->
+</resources>

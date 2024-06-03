@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521834795217",
+    "project_id": "umeed-57bd8",
+    "storage_bucket": "umeed-57bd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521834795217:android:e53dfcec5a8a3b183675f0",
+        "android_client_info": {
+          "package_name": "com.example.umeed"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkvO3XTQJA5dUOSsMNm_qzKeMHlvNOsFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

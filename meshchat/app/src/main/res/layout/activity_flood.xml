@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FloodActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toTopOf="@id/button"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/landscapeImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/flood"
+                android:contentDescription="Landscape Image" />
+
+            <TextView
+                android:id="@+id/landscapeDetailsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Details about landscape..."
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/disasterDetailsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="As the morning sun crests over the horizon, it bathes the landscape in a golden hue, illuminating a scene of breathtaking beauty. Rolling hills, cloaked in a patchwork quilt of emerald and gold, stretch as far as the eye can see, undulating gently like the swells of a tranquil sea. Clusters of trees, their leaves ablaze with the fiery colors of autumn, dot the countryside, providing shade and shelter to the myriad creatures that call this place home. A winding river meanders through the valley below, its crystal-clear waters glinting in the sunlight as it cuts a serpentine path through the verdant fields. In the distance, rugged mountains rise majestically against the azure sky, their snow-capped peaks reaching towards the heavens. Everywhere one looks, there is evidence of nature's boundless creativity and untamed splendor, making this landscape a true feast for the senses."
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/preventionTipsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prevention tips during disaster..."
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+            <TextView
+                android:id="@+id/preventionTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Prevention tips are essential for maintaining safety and well-being in various aspects of life. Whether it's health, security, or environmental concerns, taking proactive measures can significantly reduce risks and potential harm. In the realm of health, practicing good hygiene, such as frequent handwashing and proper sanitation, can help prevent the spread of diseases. Regular exercise, a balanced diet, and sufficient sleep contribute to overall well-being and strengthen the immune system. When it comes to security, being vigilant and aware of one's surroundings, especially in unfamiliar or potentially dangerous situations, is crucial. Installing security systems, using strong passwords, and being cautious with personal information online are additional measures to safeguard against threats. Environmental conservation also requires preventive action, such as reducing waste, conserving water and energy, and adopting sustainable practices to mitigate the impact of human activities on the planet. By implementing these prevention tips, individuals can protect themselves, their communities, and the environment for a safer and healthier future."
+                android:textSize="16sp"
+                android:layout_marginTop="16dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginBottom="16dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

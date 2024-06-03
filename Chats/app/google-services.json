@@ -1,0 +1,27 @@
+{
+  "project_info": {
+    "project_number": "974257816349",
+    "project_id": "ganj-e0cb1",
+    "storage_bucket": "ganj-e0cb1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974257816349:android:49834f26cdfe0b827317f4",
+        "android_client_info": {
+          "package_name": "com.example.gannu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": ""
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
